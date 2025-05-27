@@ -87,6 +87,6 @@ void main() {
   var teste = 1;
   // teste = 'texto'; // vai gerar erro pois não é uma variável do tipo dynamic, então não se pode alterar o valor atrubudo.
 
-//?? PERGUNTA: As variávei do tipo var são dinâmicas?
+  //?? PERGUNTA: As variávei do tipo var são dinâmicas?
   //R: Sim, mas depois que possuem um tipo definido não é possível atribuir outro tipo;
 }
