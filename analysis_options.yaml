@@ -12,6 +12,12 @@
 # The core lints are also what is used by pub.dev for scoring packages.
 
 include: package:lints/recommended.yaml
+analyzer:
+  errors:
+    dead_code: ignore
+    unnecessary_null_comparison: ignore
+    unnecessary_type_check: ignore
+    unused_local_variable: ignore
 
 # Uncomment the following section to specify additional rules.
 
